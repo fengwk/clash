@@ -21,6 +21,16 @@
   </a>
 </p>
 
+## Instruction
+
+This is a buildable version. Execute the following script to build the clash in the current directory.
+
+```
+git clone https://github.com/fengwk/clash.git
+cd clash
+go build -ldflags="-s -w -extldflags=-static" -o clash main.go
+```
+
 ## Features
 
 - HTTP/HTTPS and SOCKS proxy
